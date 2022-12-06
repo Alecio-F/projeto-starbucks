@@ -9,12 +9,14 @@
     --primeira-cor: #117050;
 }
 
-
-body {
-    font-family: var(--fonte-textos);
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-textos);
 }
 
 header .line {
@@ -84,16 +86,16 @@ header .line {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
 }
 
 .banner h1 {
     font-family: var(--fonte-titulos);
-    font-size: 5em;
+    font-size: 6em;
     font-weight: bold;
-    line-height: 90px;
+    line-height: 110px;
     margin-bottom: 35px;
 }
 
