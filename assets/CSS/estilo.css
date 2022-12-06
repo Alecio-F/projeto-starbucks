@@ -176,3 +176,34 @@ header .line {
     grid-column: 2 / 3;
     grid-row: 1 / 3;
 }
+
+
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.area2--content {
+    padding: 80px;
+}
+
+.area2--texto {
+    margin-bottom: 60px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.area2--img1 {
+    background-image: url(../imagens/f4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+
+.area2--img2 {
+    background-image: url(../imagens/f3.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
