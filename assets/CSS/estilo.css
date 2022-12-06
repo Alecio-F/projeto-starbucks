@@ -271,3 +271,37 @@ footer {
     padding: 80px;
     text-align: center;
 }
+
+
+@media (min-width: 769px) and (max-width: 1140px) {
+    .conteiner {
+        padding: 0px 20px;
+    }
+
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .conteiner {
+        padding: 0px 20px;
+    }
+
+    .area1 {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .area2 {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .area3 {
+        grid-template-columns: 3fr 2fr;
+    }
+
+}
+
+@media (min-width: 425px){
+    .conteiner {
+        padding: 0px 20px;
+    }
+
+}
