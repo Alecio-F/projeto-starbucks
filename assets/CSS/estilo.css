@@ -8,6 +8,7 @@
 
     --primeira-cor: #117050;
     --cor-da-barra: #006341;
+    --cor-do-botão: #454545;
 }
 
 * {
@@ -46,6 +47,20 @@ h2 {
     font-weight: bold;
     line-height: 55px;
     margin-bottom: 20px;
+}
+
+.botão {
+    display: inline-block;
+    border: 2px solid var(--cor-do-botão);
+    border-radius: 3px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: var(--cor-do-botão);
+}
+
+.botão:hover {
+    background-color: var(--cor-do-botão);
+    color: white;
 }
 
 header .line {
@@ -136,7 +151,16 @@ header .line {
     padding: 80px;
 }
 
+.area1--quote {
+    margin-bottom: 25px;
+    font-size: 15px;
+}
 
+.area1--texto {
+    margin-bottom: 60px;
+    line-height: 25px;
+    font-size: 15px;
+}
 
 .area1--img1 {
     background-image: url(../imagens/f2.jpg);
